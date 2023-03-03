@@ -22,4 +22,9 @@ public class Mushroom extends Item{
         }else {System.out.println("Mushroom is disappear!");}
     }
 
+    @Override
+    public String toString() {
+        return "Mushroom []";
+    }
+
 }
